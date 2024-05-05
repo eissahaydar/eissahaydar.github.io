@@ -51,6 +51,26 @@
       height: 175px;
       width: auto;
       }
+      .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+      }
+      .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 6px;
+      top: 100%;
+      left: 50%;
+      margin-left: -60px;
+      }
+      .tooltip:hover .tooltiptext {
+      visibility: visible;
+      }
    </style>
    <body>
       <table style="width:100%;max-width:950px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
@@ -93,11 +113,11 @@
                            <h2 style="margin-top: 0pt; margin-bottom:0pt; display: inline;">Academic Work</h2>
                            <ul class="paper">
                               <li>
-                                 <p class="paper">``Costly Invention Informs Compositional Signaling''
+                                 <p class="paper">
+                                    <div class="tooltip">Costly Invention Informs Compositional Signaling
+                                      <span class="tooltiptext">This paper studies the relationship between compositionality and invention in signaling games, seen as a generalization of language.</span>
+                                    </div>
                                     <br>Senior honors thesis, advised by <a href="https://websites.umich.edu/~jjoyce/">Jim Joyce</a>. [&nbsp;<a class="paper" href = "papers/ehaydar.pdf">pdf</a>&nbsp;]
-                                 <ul>
-                                    <li>This paper studies the relationship between compositionality and invention in signaling games, seen as a generalization of language.</li>
-                                 </ul>
                                  </p>
                               </li>
                               <li>
