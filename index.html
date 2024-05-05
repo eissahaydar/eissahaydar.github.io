@@ -53,7 +53,7 @@
       }
       .tooltip {
       position: relative;
-      display: flex;
+      display: inline-block;
       border-bottom: 1px dotted black;
       }
       .tooltip .tooltiptext {
@@ -62,16 +62,16 @@
       color: #fff;
       text-align: center;
       border-radius: 6px;
-      padding: 5px 0;
+      padding: 10px 0;
       position: absolute;
       z-index: 1;
-      top: -5px;
+      top: 50%;
       right: 110%;
       }
       .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
-      top: 10%;
+      top: 50%;
       left: 100%;
       margin-top: -5px;
       border-width: 5px;
