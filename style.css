@@ -1,0 +1,119 @@
+body {
+    background-color: #f9f1f1;
+    margin: 50px;
+    font-family: Monospace;
+    color: #595959;
+}
+
+h1 {
+    color: #333333;
+}
+
+h2 {
+    color: #333333;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    display: inline;
+}
+
+div.content {
+    width: 80%;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.inner_box {
+    padding: 0px;
+    padding: 2.5%;
+    vertical-align: middle;
+}
+
+div.list_box {
+    margin: 0 15px;
+}
+
+a.paper:link {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a.paper:visited {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a.paper:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* a:target="_blank" */
+
+ul.paper {
+    margin:0;
+    padding: 10px;
+}
+
+span.author {
+    font-size: 90%;
+}
+
+li {
+    margin: 0;
+}
+
+.rectangle { 
+    width: 225px; 
+    height: 225px; 
+    background-color: #a1cbdd; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;    
+    margin: 0 0 0 15px;
+} 
+
+.rectangle img {
+    height: 175px;
+    width: auto;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    width: 225px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
