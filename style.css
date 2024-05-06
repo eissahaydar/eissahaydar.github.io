@@ -1,6 +1,5 @@
 body {
     background-color: #f9f1f1;
-    margin: 50px;
     font-family: Monospace;
     color: #595959;
     font-size: 9.75pt;
@@ -18,10 +17,11 @@ h2 {
 }
 
 div.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 80%;
     border: 0px;
     border-spacing: 0px;
-    border-collapse: separate;
     margin-right: auto;
     margin-left: auto;
 }
@@ -93,7 +93,7 @@ li {
 .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    text-decoration: underline;
 }
 
 .tooltip .tooltiptext {
@@ -104,6 +104,7 @@ li {
     border-radius: 6px;
     padding: 10px;
     position: absolute;
+    text-decoration: none;
     z-index: 1;
     top: -5px;
     left: 105%;
