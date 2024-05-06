@@ -26,7 +26,6 @@ div.content {
 }
 
 div.inner_box {
-    padding: 0px;
     padding: 2.5%;
     vertical-align: middle;
 }
@@ -66,8 +65,8 @@ a:hover {
 /* a:target="_blank" */
 
 ul.paper {
-    margin:0;
-    padding: 10px;
+    margin: 0;
+    padding: 10px 10px 0px 10px;
 }
 
 span.author {
@@ -75,7 +74,7 @@ span.author {
 }
 
 li {
-    margin: 0;
+    margin: 0 0 10px 0;
 }
 
 .rectangle { 
