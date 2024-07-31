@@ -49,6 +49,20 @@ a.paper:hover {
     text-decoration: underline;
 }
 
+a.story:link {
+    color: #00cc00;
+    text-decoration: none;
+}
+
+a.story:visited {
+    color: #00cc00;
+    text-decoration: none;
+}
+
+a.story:hover {
+    text-decoration: underline;
+}
+
 a:link {
     color: #cc0000;
     text-decoration: none;
