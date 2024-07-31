@@ -35,6 +35,20 @@ div.list_box {
     margin: 0 15px;
 }
 
+a:link {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 a.paper:link {
     color: #cc0000;
     text-decoration: none;
@@ -60,20 +74,6 @@ a.story:visited {
 }
 
 a.story:hover {
-    text-decoration: underline;
-}
-
-a:link {
-    color: #cc0000;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #cc0000;
-    text-decoration: none;
-}
-
-a:hover {
     text-decoration: underline;
 }
 
