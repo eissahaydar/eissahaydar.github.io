@@ -64,12 +64,12 @@ a.paper:hover {
 }
 
 a.story:link {
-    color: #00cc00;
+    color: #008000;
     text-decoration: none;
 }
 
 a.story:visited {
-    color: #00cc00;
+    color: #008000;
     text-decoration: none;
 }
 
