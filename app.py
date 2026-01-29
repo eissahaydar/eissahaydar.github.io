@@ -1,9 +1,7 @@
 import time
 
 import micropip
-await micropip.install(
-    "https://pyscript.net/wheels/z3_solver-4.12.1.0-cp311-cp311-emscripten_3_1_32_wasm32.whl"
-)
+await micropip.install("z3-solver")
 
 from z3 import Solver, Real, sat
 
