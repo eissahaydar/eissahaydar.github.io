@@ -1,5 +1,5 @@
 {
-    "packages": ["z3-solver"],
+    "packages": ["https://cdn.jsdelivr.net/gh/Z3Prover/z3@master/src/api/python/z3/z3.py"],
     "files": {
         "./helper.py": "./helper.py"
     }
