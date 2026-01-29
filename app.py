@@ -3,10 +3,6 @@ from z3 import Solver, Real, sat
 
 from helper import *
 
-import code
-
-code.interact()
-
 bayes = False
 
 sleeptime = 0
