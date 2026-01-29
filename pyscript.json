@@ -1,3 +1,6 @@
 {
-    "packages": ["z3-solver"]
+    "packages": ["z3-solver"],
+    "files": {
+        "./helper.py": "./helper.py"
+    }
 }
