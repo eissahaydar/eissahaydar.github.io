@@ -1,7 +1,7 @@
 import time
 
-import micropip
-await micropip.install("z3-solver")
+import pyodide_js
+await pyodide_js.loadPackage("z3-solver")
 
 from z3 import Solver, Real, sat
 
