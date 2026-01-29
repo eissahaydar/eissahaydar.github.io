@@ -4,38 +4,8 @@
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <title>Statistical Inference Software</title>
-
-    <style>
-        /* Simple CSS Spinner */
-        .loader {
-            border: 8px solid #f3f3f3;
-            border-top: 8px solid #3498db;
-            border-radius: 50%;
-            width: 60px;
-            height: 60px;
-            animation: spin 2s linear infinite;
-            margin: 20px auto;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        .loading-container {
-            text-align: center;
-            font-family: sans-serif;
-            margin-top: 100px;
-        }
-    </style>
-    
 </head>
 <body>
-    <div id="loading" class="loading-container">
-        <div class="loader"></div>
-        <p>Initializing SIS...<br><small>This may take a few seconds.</small></p>
-    </div>
-    
-    <script type="py" src="./app.py" config="./pyscript.json"></script>
+    <script type="py" src="./app.py" config="./pyscript.json" terminal></script>
 </body>
 </html>
