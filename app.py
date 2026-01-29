@@ -1,7 +1,4 @@
 import time
-
-await micropip.install("z3-solver", index_urls="https://gitlab.com/api/v4/projects/56254198/packages/pypi/simple")
-
 from z3 import Solver, Real, sat
 
 from helper import *
